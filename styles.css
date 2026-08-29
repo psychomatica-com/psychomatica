@@ -35,16 +35,11 @@ main {
 
 .wordmark p {
   width: 100%;
-  margin: 0.65rem 0 0;
-  background: linear-gradient(0deg, #766f9b, #9879a6 48%, #b98eaf);
-  background-clip: text;
-  color: transparent;
-  filter: brightness(0.76) saturate(0.55);
-  font-size: clamp(1.6rem, 4.55vw, 4.1rem);
+  margin: 0.8rem 0 0;
+  color: rgba(53, 29, 63, 0.42);
+  font-size: clamp(0.75rem, 1.3vw, 1.15rem);
   font-weight: 400;
-  line-height: 1;
-  text-align: justify;
-  text-align-last: justify;
-  text-justify: inter-character;
-  white-space: nowrap;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-align: center;
 }
