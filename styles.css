@@ -13,7 +13,7 @@ body {
   background:
     radial-gradient(circle at 82% 18%, rgba(237, 180, 218, 0.72), transparent 38%),
     linear-gradient(155deg, #47769d 0%, #9870a7 42%, #e9acd4 76%, #f5c9e6 100%);
-  color: #061925;
+  color: #351d3f;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -35,9 +35,16 @@ main {
 
 .wordmark p {
   width: 100%;
-  margin: 0.9rem 0 0;
-  font-size: clamp(0.75rem, 1.5vw, 1.35rem);
+  margin: 0.65rem 0 0;
+  background: linear-gradient(0deg, #766f9b, #9879a6 48%, #b98eaf);
+  background-clip: text;
+  color: transparent;
+  filter: brightness(0.76) saturate(0.55);
+  font-size: clamp(1.6rem, 4.55vw, 4.1rem);
   font-weight: 400;
-  letter-spacing: 0.02em;
-  text-align: center;
+  line-height: 1;
+  text-align: justify;
+  text-align-last: justify;
+  text-justify: inter-character;
+  white-space: nowrap;
 }
